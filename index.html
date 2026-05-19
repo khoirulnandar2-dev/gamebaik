@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Catur Hitam Putih</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="app-shell">
+    <section class="game-panel">
+      <header class="game-header">
+        <h1>Game Catur Hitam Putih</h1>
+        <p>Mainkan catur 2 pemain di komputer dan HP.</p>
+      </header>
+
+      <div class="status-bar">
+        <div id="turnLabel" class="turn-label">Giliran: Putih</div>
+        <button id="resetButton" class="btn">Reset Game</button>
+      </div>
+
+      <div id="board" class="board" aria-label="Papan catur"></div>
+
+      <div class="legend">
+        <p>Ketuk atau klik pada bidak untuk memilih, lalu pilih kotak tujuan.</p>
+        <p>Hitam = bidak hitam, Putih = bidak putih.</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
